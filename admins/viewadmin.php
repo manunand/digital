@@ -3,12 +3,12 @@
 <head>
 	<title>Digital Tourist Guide | view admin</title>
 </head>
-<body>
+<body class="bg">
 	<?php
 	include 'navbar.php';
 	?>
 
-	<div class="container-fluid" style="background-color: #abcdab;padding-top: 100px">
+	<div class="container-fluid">
 		<div class="container" style="border:solid thin black;border-radius: 10px;">
 			<h2 class="well well-sm" style="background-color:transparent; animation-duration: 3s;text-shadow:1px 1px 0 #444; color: white"><b>Admin Details</b></h2><br>
 			<!-- <div style="animation-duration: 3s;" class="w3-animate-zoom">-->
@@ -62,11 +62,9 @@
 		</div>
 	</div>
 
-	<footer class="container-fluid text-center" id="foot">
-		<div class="row">
-			
-		</div>
-	</footer>
+	<?php 
+		include 'footer.php';
+	?>
 
 </body>
 </html>

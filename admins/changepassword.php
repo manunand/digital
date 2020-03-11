@@ -78,11 +78,12 @@ else {
 }
 .bg {
     /* The image used */
-    background-image: url("../img/general.jpg");
+   /* background-image: url("../img/general.jpg");*/
 
     /* Full height */
     height: auto; 
     width: 100%;
+    background-color: #abcdab;
 /*    padding-top: 8%;*/
     /* Center and scale the image nicely */
     background-position: center;
@@ -95,7 +96,7 @@ else {
   <?php
 include('navbar.php');
 ?>
-<div class="content w3-animate-top " style="padding-top: 2%">
+<div class="content w3-animate-top">
 <div class="w3-card-4" style="padding-top: 8%;border:solid thin black;border-radius: 10px;border-color: green;box-shadow: 1px 1px 90px #fff;">
   <div class="w3-container" align="center">
     <h2><b style="color: #ffffff">Change Password</b></h2><br><br>

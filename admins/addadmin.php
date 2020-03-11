@@ -3,11 +3,11 @@
 <head>
 	<title>Digital Tourist Guide | Add Admin</title>
 </head>
-<body>
+<body class="bg">
 	<?php
 	include 'navbar.php';
 	?>
-	<div class="container-fluid" style="background-color: #abcdab;padding-top: 100px;">
+	<div class="container-fluid">
 		<div  class="container" style="width: 70%;background-color: transparent;  color: black; border:solid thin black;border-radius: 10px;">
 			<h1 align="center" class="w3-animate-top">Add Admin Details</h1><br>
 			<form  class="form-horizontal w3-animate-zoom" action="addadminscript.php" method="POST">
@@ -58,12 +58,8 @@
 			</form>
 		</div>
 	</div>
-
-	<footer class="container-fluid text-center" id="foot">
-		<div class="row">
-			
-		</div>
-	</footer>
-
+	<?php
+	include 'footer.php';
+	?>
 </body>
 </html>

@@ -27,7 +27,7 @@ if(mysqli_affected_rows($conn)>0) {
 	?><br><br><br>
 	<div class="alert alert-success">
   		<strong>Success!</strong> Your response has been successfully recorded.Thank you.
-		<meta http-equiv="refresh" content="6;url=index.php" />
+		<meta http-equiv="refresh" content="3;url=index.php" />
 	</div>
 
 	<?php
@@ -37,7 +37,7 @@ else {
 	<br><br><br>
 	<div class="alert alert-danger">
   		<strong>Sorry!</strong> Please try to re enter your details. Please make sure credentials such as id is unique
-  		<meta http-equiv="refresh" content="7;url=index.php" />
+  		<meta http-equiv="refresh" content="5;url=index.php" />
 	</div>
 	<?php
 } 
@@ -48,7 +48,7 @@ else
 	<br><br><br>
 	<div class="alert alert-danger">
   		<strong>Sorry!</strong> Passwords should be same
-  		<meta http-equiv="refresh" content="7;url=addstudent.php" />
+  		<meta http-equiv="refresh" content="4;url=givepassword.php" />
 	</div>
 	<?php
 }

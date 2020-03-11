@@ -36,10 +36,10 @@
 	<?php
 	include 'navbar.php';
 	?>
-	<div id="home" style="background: url(./img/digital1.jpg);padding-top: 95px;">
+	<div id="home" style="background: url(./img/digital1.jpg);">
 		<div class="landing-text">
-			<div class="content w3-animate-top " style="padding-top: 2%">
-			<div class="w3-card-4" style="padding-top: 8%;border:solid thin black;border-radius: 10px;border-color: green;box-shadow: 1px 1px 90px #fff;">
+			<div class="content w3-animate-top ">
+			<div class="w3-card-4" style="border:solid thin black;border-radius: 10px;border-color: green;box-shadow: 1px 1px 90px #fff;">
 			<div class="w3-container" align="center">
 				<h2><b style="color: #ffffff">LOGIN</b></h2><br><br>
 			</div>

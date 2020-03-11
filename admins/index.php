@@ -3,7 +3,7 @@
 <head>
 	<title>Digital Tourist Guide</title>
 </head>
-<body>
+<body class="bg">
 	<?php
 	include 'navbar.php';
 	?>
@@ -15,11 +15,9 @@
 		</div>		
 	</div>
 	
-	<footer class="container-fluid text-center" id="foot">
-		<div class="row">
-			
-		</div>
-	</footer>
+	<?php
+	include 'footer.php';
+	?>
 
 </body>
 </html>

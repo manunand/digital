@@ -104,3 +104,10 @@ footer{
 		max-width: 100px;
 	}
 }
+
+.bg{
+	background: url('../img/digital25.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
