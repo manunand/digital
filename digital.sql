@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 11, 2020 at 04:25 PM
+-- Generation Time: Mar 12, 2020 at 05:25 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.11
 
@@ -43,10 +43,9 @@ CREATE TABLE `adminlist` (
 --
 
 INSERT INTO `adminlist` (`id`, `name`, `gender`, `email`, `phone`, `address`, `desig`) VALUES
-(1, 'Jyoshna Gayakwad', 'female', 'abcdefg@def.com', '1234567', 'sdafkb sb hibs ifhb shbdfc ibgs', 'admin'),
-(2, 'Anand Kammar', 'Male', 'rc.anandkammar@gmail.com', '768457684', 'hjgfyt fhg fvcgf						                                    ', ' gf tfg fuy'),
-(3, 'ravi', 'Male', 'rc.anandkammar@gmail.com', '65476324', '		dfgrdsg				', 'gfdgvdsgf'),
-(4, 'Veena Patil', 'Female', 'veena@gmail.com', '2756', 'shg sfdh g						                        ', 'Manager');
+(2, 'Admin', 'Male', 'admin@123', '768457684', 'hjgfyt fhg fvcgf						                                                ', ' gf tfg fuy'),
+(4, 'Veena Patil', 'Female', 'veena@gmail.com', '2756', 'shg sfdh g						                        ', 'Manager'),
+(5, 'Sumaiyya', 'Female', 'sumaiyya@gmail.com', '8547987684', 'uygdf xg hxdyg liudhfxuyg						', 'gdx fv');
 
 -- --------------------------------------------------------
 
@@ -66,9 +65,8 @@ CREATE TABLE `admin_login` (
 --
 
 INSERT INTO `admin_login` (`id`, `username`, `password`, `privilege`) VALUES
-(2, 'anand', 'manu', 1),
-(1, 'jyoshna', 'password', 1),
-(3, 'ravi', '123', 1),
+(2, 'admin', 'password', 1),
+(5, 'sumaiyya', '1234', 1),
 (4, 'veena', 'patil', 1);
 
 -- --------------------------------------------------------
@@ -157,25 +155,25 @@ ALTER TABLE `videos`
 -- AUTO_INCREMENT for table `adminlist`
 --
 ALTER TABLE `adminlist`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `images`
 --
 ALTER TABLE `images`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `places`
 --
 ALTER TABLE `places`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `videos`
 --
 ALTER TABLE `videos`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- Constraints for dumped tables

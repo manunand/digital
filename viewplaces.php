@@ -3,7 +3,7 @@
 <head>
 	<title>Scan QR-Code</title>
 </head>
-<script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js">
+<script src="./js/qr_packed.js">
 </script>
 <script type="text/javascript">
 	function openQRCamera(node) {
@@ -31,7 +31,7 @@
   display: inline-block;
   height: 1.5em;
   width: 2em;
-  background: url(./img/qr.png) 50% 50% no-repeat;
+  background: url(./img/qr.png) 50% 50% no-repeat;background-size: cover;
   cursor: pointer;
 }
 
@@ -53,10 +53,9 @@
   margin-left: -1.7em;
   vertical-align: middle;
 }
-
-
 </style>
-<body class="bg">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<body style="background: url(./img/digital25.jpeg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
 	<?php
 	include 'navbar.php';
 	?>
@@ -141,7 +140,7 @@
 						}
 						else
 						{
-							echo "No Videos Uploaded for this place<br>";
+							echo "No Images Uploaded for this place<br>";
 						}
 						$conn-> close();
 					}

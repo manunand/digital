@@ -33,9 +33,9 @@
 			          <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size: 15px"><b>Hello <?php echo $username; ?>
 			          </b><span class="caret"></span></a>
 			          <ul class="dropdown-menu" style="background-color: transparent;">
-			           <li><a href="editprofile.php" style="font-size: 15px"><b>Edit Profile</b></a></li>
-			           <li><a href="changepassword.php" style="font-size: 15px"><b>Change Password</b></a></li>
-			           <li><a href="logout.php" style="font-size: 15px"><span class="glyphicon glyphicon-log-out"></span><b>Logout</b></a></li>
+			           <li><a href="editprofile.php" style="font-size: 15px;color: black;"><b>Edit Profile</b></a></li>
+			           <li><a href="changepassword.php" style="font-size: 15px;color: black;"><b>Change Password</b></a></li>
+			           <li><a href="logout.php" style="font-size: 15px;color: black;"><span class="glyphicon glyphicon-log-out"></span><b>Logout</b></a></li>
 			          </ul>
 			        </li>
 				</ul>
