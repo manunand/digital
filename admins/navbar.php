@@ -27,6 +27,7 @@
 					<li><a href="viewadmin.php">View Admin</a></li>
 					<li><a href="givepassword.php">Password Permission</a></li>
 					<li><a href="addplace.php">Add Place</a></li>
+					<li><a href="editplace.php">Edit Description</a></li>
 					<li><a href="addmedia.php">Add Media</a></li>
 					<li><a href="viewplace.php">View Place</a></li>
 					<li class="dropdown">
